@@ -296,6 +296,7 @@ input {
     font-weight: bold;
     margin: 2% 4% 2% 4%;
     padding: 4% 2% 4% 2%;
+    background-image: linear-gradient(to bottom, black, yellow );
 }
 
 .formularioNewsletter {
@@ -384,6 +385,7 @@ input {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 4%;
     padding-bottom: 4%;
+    background-image: linear-gradient(to left, black, yellow);
 }
 
 /* GRID Y FLEX RECITALES */

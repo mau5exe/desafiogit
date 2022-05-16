@@ -1,0 +1,661 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+head {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDCA40;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #706C61
+}
+
+footer {
+    color: #D7D9CE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #706C61;
+    text-align: center;
+
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+}
+
+li {
+    color: #000000;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input {
+    font-weight: bold;
+}
+
+/* PAGINA QUIENES SOMOS */
+
+.parrafosDeHistoria p {
+    font-weight: bold;
+    font-style: oblique;
+    color: #eeba0b;
+    font-size: 20px;
+}
+
+.parrafosDeHistoria h3 {
+    color: #C0C0C0;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quienesSomos {
+    border: #000000 solid 4px;
+    margin-bottom: 0%;
+    background-color: #000000;
+}
+
+.quienesSomos h3 {
+    display: inline-block;
+}
+
+.quienesSomos img {
+    width: 100%;
+    margin-top: 0%;
+}
+
+/* PAGINA REDES */
+.enlacesRedes {
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    align-items: center;
+    width: 50%;
+}
+
+.enlacesRedes h4 {
+    margin: 2% 2% 2% 12%;
+    padding: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.enlacesIconos a {
+    margin: 10% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+/* PAGINA RECITALES */
+.anclaInicioImg {
+    width: 100%;
+}
+/* .imagenRecitales {
+    display: inline-block;
+    margin: 2% 4% 2% 15%; 
+    padding: 0%;
+    margin-left: 5%; 
+    border: 10px solid #000000;
+    max-width: 90%;
+    max-height: 50%;
+    border-radius: 5px;
+} */
+/* .menuInicio a img {
+    width: 300%;
+    margin: auto;
+    max-width: 100%;
+} */
+/* .cuerpoRecitales h2 {
+    padding: 1%;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.fechaCiudad {
+    border: #000000 solid 8px;
+    border-radius: 5px;
+    background-color: #232528;
+    /* width: 650px;
+    height: 615px; */
+    align-content: stretch;
+}
+
+.fechaCiudad li {
+    color: #F8F4E3;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 650px;
+    height: 100px; */
+}
+
+/* .fechaCiudad {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    margin: 2%;
+} */
+
+.enlacesTickets {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 50px 0px 50px 0px;
+}
+
+.linkYoutube {
+    /* display: inline-block;
+    margin: 0% 50% 2% 20%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 800px;
+    text-align: center; */
+    border: 8px solid #000000;
+    border-radius: 3px;
+    background-color: #FFA400;
+}
+
+.linkYoutube h3 {
+    font-size: 4rem;
+    align-content: center;
+}
+
+#fondoPreguntas {
+    background-image: url(../img/fondopreguntas.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #F8F4E3;
+    height: 1000px;
+}
+
+#fondoPreguntas p {
+    border: 2px none #eeba0b;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 1%;
+    padding: 2%;
+}
+
+#fondoPreguntas h2 {
+    padding: 4%;
+}
+
+.imagenPortada {
+    background-image: url(../img/SodaStereoLogook.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* width: calc(215vh - 5px); */
+    height: calc(40vh - 30px);
+}
+
+.cuerpoInicio h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#tituloRaiz {
+    margin-top: 4%;
+    padding: 0%;
+    text-align: left;
+    
+}
+
+.cuerpoProductos h2 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.botonesMenu {
+    background-color: #000000;
+}
+
+.botonesMenu {
+    width: 600px;
+    background-color: #000000;
+}
+
+.botonesMenu div a {
+    border: 2px solid #FFA400;
+    background-color: black;
+    display: inline-block;
+    text-align: end;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px 2px 1px 2px;
+}
+
+.letrasMenu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 3px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.letrasMenu a {
+    color: white;
+}
+
+.imagenesInicio img {
+    border: solid 6px black;
+    display: inline;
+    box-shadow: 3px 3px 15px;
+    /* padding-left: 0%; */
+    /* margin-left: 50px; */
+}
+
+.textoInicio p {
+    border: solid 6px #232528;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: inline-block;
+    background-color: #FFED65;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2% 4% 2% 4%;
+    padding: 4% 2% 4% 2%;
+}
+
+.formularioNewsletter {
+    font-size: 2rem;
+    text-align: center;
+    border: solid 10px black;
+    background-color: #eeba0b;
+    display: inline-block;
+    margin: 3% 6% 5% 31%;
+    padding: 4% 10% 4% 10%;
+    box-shadow: 2px 2px 10px;
+}
+
+.logoPrincipal {
+    width: 1350px;
+    height: 200px;
+}
+
+
+.remerasDiscos li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.fondoProductos img {
+    border: solid 3px black;
+    display: inline;
+    padding-left: 0%;
+    margin-left: 140px;
+    padding: 1% 1% 1% 1%;
+    background-color: #eeba0b;
+}
+
+.tituloContacto h2 {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.ubicacion h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.ubicacion {
+    background-size: cover;
+    background-color: #FFA400;
+    border: #000000 solid 2px;
+    margin-bottom: 3%;
+}
+
+.ubicacion iframe {
+    border: #000000 solid 1px;
+    margin-left: 28%;
+    margin-bottom: 2%;
+}
+
+.formulario {
+    background-size: cover;
+    background-color: #FFA400;
+    border: #000000 solid 2px;
+}
+
+.formulario form {
+    border: #000000 solid 1px;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.formulario legend {
+    margin-bottom: 4%;
+    font-size: 2rem;
+}
+
+.tituloNosotros {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/* GRID Y FLEX RECITALES */
+.cuerpoRecitales{
+    display: grid;
+    grid-template-areas:
+    "botoneraRecitales botoneraRecitales botoneraRecitales"
+    "anclaImg anclaImg anclaImg"
+    "recital recital recital"
+    "imagenReci imagenReci imagenReci"
+    "imagenReci imagenReci imagenReci"
+    "fechaReci fechaReci fechaReci"
+    "tickets tickets tickets"
+    "youtube youtube youtube"
+    "redes redes redes"
+    "copyright copyright copyright";
+}
+.anclaInicioImg {
+    grid-area: anclaImg;
+          
+}
+.botonesMenu {
+    grid-area: botoneraRecitales;
+}
+.textoRecital {
+    grid-area: recital;
+}
+.imagenReci {
+    grid-area: imagenReci;
+}
+.fechaCiudad {
+    grid-area: fechaReci;
+}
+.enlacesTickets {
+    grid-area: tickets;
+}
+.linkYoutube {
+    grid-area: youtube;
+}
+.enlacesRedes {
+    grid-area: redes;
+}
+footer {
+    grid-area: copyright;
+}
+/* MEDIA QUERIES - RECITALES */
+@media screen and (max-width:600px) {
+    .cuerpoRecitales {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        margin: 0;
+        height: 100vh;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        grid-template-areas: 
+        "botoneraRecitales botoneraRecitales botoneraRecitales"
+        "anclaImg anclaImg anclaImg"
+        "recital recital recital"
+        "imagenReci imagenReci imagenReci"
+        "imagenReci imagenReci imagenReci"
+        "fechaReci fechaReci fechaReci"
+        "tickets tickets tickets"
+        "youtube youtube youtube"
+        "redes redes redes"
+        "copyright copyright copyright";
+    }
+    .cuerpoRecitales {
+        display: flex;
+        
+    }
+    .anclaInicioImg img{
+        grid-area: anclaImg;
+        max-width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    .botonesMenu {
+        grid-area: botoneraRecitales;
+        flex-wrap: wrap;
+    }
+    .textoRecital {
+        grid-area: recital;
+        max-width: 100%;
+        margin: auto;
+        
+        
+    }
+    .imagenReci img{
+        grid-area: imagenReci;
+        max-width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+                
+    }
+    .fechaCiudad {
+        grid-area: fechaReci;
+        margin: auto;
+        padding: 50px;
+        text-align: center;
+    }
+    .enlacesTickets {
+        grid-area: tickets;
+        flex-wrap: wrap;
+        
+    }
+    .linkYoutube iframe {
+        grid-area: youtube;
+        flex-wrap: wrap;
+        margin: 5%;
+        padding: 0%;
+        max-width: 90%;
+    
+    }
+    .linkYoutube {
+        text-align: center;
+    }
+    .enlacesRedes {
+        grid-area: redes;
+        flex-wrap: wrap;
+       
+    }
+    footer {
+        grid-area: copyright;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+}
+
+/* GRID Y FLEX INDEX */
+.gridA {
+    display: grid;
+    grid-template-areas:
+        "botonera botonera botonera"
+        "inicio inicio inicio"
+        "imagenInicio imagenInicio imagenInicio"
+        "imagenInicio imagenInicio imagenInicio"
+        "textoBienvenida textoBienvenida textoBienvenida"
+        "imagenesCarroucel imagenesCarroucel imagenesCarroucel"
+        "imagenesCarroucel imagenesCarroucel imagenesCarroucel"
+        "imagenesCarroucel imagenesCarroucel imagenesCarroucel"
+        "textoInicio textoInicio textoInicio"
+        "textoInicio textoInicio textoInicio"
+        "newsletter newsletter newsletter"
+        "newsletter newsletter newsletter"
+        "redes redes redes"
+        "copyright copyright copyright";
+}
+
+.letrasMenu {
+    grid-area: botonera;
+}
+
+.tituloRaiz {
+    grid-area: inicio;
+}
+
+.imagenPortada {
+    grid-area: imagenInicio;
+}
+
+.cuerpoInicio {
+    grid-area: textoBienvenida;
+}
+
+.imagenesInicio {
+    grid-area: imagenesCarroucel;
+}
+
+.textoInicio {
+    grid-area: textoInicio;
+}
+
+.formularioNewsletter {
+    grid-area: newsletter;
+}
+
+.enlacesRedes {
+    grid-area: redes;
+}
+
+footer {
+    grid-area: copyright
+}
+
+.imagenesInicio {
+    display: flex;
+    margin: auto;
+    border-radius: 5px black solid;
+    align-content: stretch;
+    flex-flow: wrap-reverse;
+    justify-content: space-around;
+}
+
+/* RESPONSIVE APLICANDO MEDIA QUERIES */
+
+/* INDEX */
+@media screen and (max-width:700px) {
+
+    .gridA {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        margin: 0%;
+        height: 100vh;
+        flex-wrap: wrap;
+        grid-template-areas:
+            "botonera botonera botonera"
+            "imagenInicio imagenInicio imagenInicio"
+            "imagenesInicio imagenesInicio imagenesInicio"
+            "imagenesInicio imagenesInicio imagenesInicio"
+            "redes redes redes"
+            "copyright copyright copyright";
+    }
+    .gridA {
+        display: flex;
+        
+       
+    }
+    .botonesMenu {
+        grid-area: botonera;
+        flex-wrap: wrap;
+    
+    }
+
+    #tituloRaiz {
+        display: none;
+        flex-wrap: wrap;
+        
+    }
+
+    .imagenPortada {
+        grid-area: imagenInicio;
+        gap: 5px;
+        flex-wrap: wrap;
+
+    }
+
+    .cuerpoInicio {
+        grid-area: imagenesInicio;
+        flex-wrap: wrap;
+        max-width: 90%;
+        margin: auto;
+        align-content: center;
+    }
+
+    .imagenesInicio {
+        grid-area: imagenesCarroucel;
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    .formularioNewsletter {
+        grid-area: newsletter;
+        flex-wrap: wrap;
+        margin: auto;
+
+    }
+
+    .enlacesRedes {
+        grid-area: redes;
+        flex-wrap: wrap;
+
+    }
+
+    footer {
+        grid-area: copyright;
+    }
+
+}
+

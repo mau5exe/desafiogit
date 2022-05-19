@@ -31,6 +31,7 @@ footer {
     background-color: #706C61;
     text-align: center;
 
+
 }
 
 a {
@@ -197,14 +198,16 @@ input {
     font-size: 4rem;
     align-content: center;
 }
+/* PAGINA PREGUNTAS FRECUENTES */
 
 #fondoPreguntas {
     background-image: url(../img/fondopreguntas.jpg);
-    background-position: 50%;
+    background-position: 80%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: #F8F4E3;
-    height: 1000px;
+    background-color: #eeba0b;
+    color: #FFFD82;
+    height:auto;
 }
 
 #fondoPreguntas p {
@@ -212,14 +215,30 @@ input {
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline-block;
-    margin: 1%;
-    padding: 2%;
+    /* margin: 1%; */
+    /* padding: 2%; */
 }
 
 #fondoPreguntas h2 {
     padding: 4%;
 }
+.imagenNavbar {
+    width: 60%;
+    margin: 0%;
+    padding: 0%;
+}
+.colorNavbar {
+    background-color: #eeba0b;
 
+}
+.fuentesNavbar {
+    font-size: 1.2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+      
+}
 .imagenPortada {
     background-image: url(../img/SodaStereoLogook.png);
     background-repeat: no-repeat;
@@ -660,4 +679,3 @@ footer {
     }
 
 }
-

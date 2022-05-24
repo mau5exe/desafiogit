@@ -5,74 +5,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>CONTACTO Y FAQS</title>
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <header class="menuInicio">
+    <header class="inicioBoots">
 
-        <div>
-            <a href="../index.html"><img src="../img/SodaStereoLogook.png" class="logoPrincipal" alt="logo principal">
-            </a>
-        </div>
-
-        <nav class="botonesMenu">
-            <div class=" letrasMenu">
-
-                <a href="../index.html">Inicio</a>
-                <a href="recitales.html">Recitales</a>
-                <a href="productos.html">Productos</a>
-                <a href="nosotros.html">Nosotros</a>
-                <a href="preguntas frecuentes.html">Preguntas Frecuentes</a>
+        <nav class="navbar navbar-expand-lg colorNavbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="imagenNavbar rounded-circle img-fluid"
+                        src="../img/cd3a.png" alt="logo navbar"> </a>
+                <button class="navbar-toggler botonResponsive" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fuentesNavbar" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fuentesNavbar" aria-current="page"
+                                href="../pages/recitales.html">RECITALES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fuentesNavbar" href="../pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fuentesNavbar" href="../pages/productos.html">PRODUCTOS</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
+        <!-- <div>
+            <a href="../index.html"><img src="../img/SodaStereoLogook.png" class="logoPrincipal" alt="logo principal">
+            </a>
+        </div> -->
     </header>
 
     <div class="tituloContacto">
         <h2>CONTACTO</h2>
     </div>
 
+    <div class="contenedorContacto">
+        <div class="ubicacion">
 
-    <div class="ubicacion">
-        <h3>UBICACION</h3>
 
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105058.62087733333!2d-58.51286822988827!3d-34.62737050393526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb431d7c0ccff%3A0x8e0cd6c5685f26cf!2sEsquina%20Soda%20Stereo!5e0!3m2!1ses!2sar!4v1650221552085!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105058.62087733333!2d-58.51286822988827!3d-34.62737050393526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb431d7c0ccff%3A0x8e0cd6c5685f26cf!2sEsquina%20Soda%20Stereo!5e0!3m2!1ses!2sar!4v1650221552085!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="formulario">
+            <form>
+                <fieldset>
+                    <div>
+                        <legend>Formulario de Contacto</legend>
+                        <label for="Nombre y Apellido">Nombre y Apellido</label>
+                        <input id="Nombre y Apellido" type="text" placeholder="Ingrese su nombre y apellido">
+                    </div>
+                    <div>
+                        <label for="Telefono">Telefono</label>
+                        <input id="Telefono" type="text" placeholder="Ingrese su numero de telefono">
+                    </div>
+                    <div>
+                        <label for="Email">Correo Electronico</label>
+                        <input id="Email" type="email" placeholder="Ingrese su email">
+                    </div>
+                    <div>
+                        <label for="Campo de texto">Comentarios</label>
+                        <br>
+                        <textarea name="" id="Campo de texto" cols="30" rows="10"></textarea>
+                        <br><br>
+                        <input type="submit">
+                        <input type="reset" value="Borrar texto">
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
     </div>
+    <div class="containerFaqs">
+        <h3>FAQS</h3>
 
-    <div class="formulario">
-        <form>
-            <fieldset>
-                <div>
-                    <legend>Formulario de Contacto</legend>
-                    <label for="Nombre y Apellido">Nombre y Apellido</label>
-                    <input id="Nombre y Apellido" type="text" placeholder="Ingrese su nombre y apellido">
-                </div>
-                <div>
-                    <label for="Telefono">Telefono</label>
-                    <input id="Telefono" type="text" placeholder="Ingrese su numero de telefono">
-                </div>
-                <div>
-                    <label for="Email">Correo Electronico</label>
-                    <input id="Email" type="email" placeholder="Ingrese su email">
-                </div>
-                <div>
-                    <label for="Campo de texto">Comentarios</label>
-                    <br>
-                    <textarea name="" id="Campo de texto" cols="30" rows="10"></textarea>
-                    <br><br>
-                    <input type="submit">
-                    <input type="reset" value="Borrar texto">
-                </div>
-            </fieldset>
-        </form>
+        <div class="faqs">
+            <h2>¿Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, fuga? </h3>
 
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat enim, cupiditate illo
+                    ratione ut
+                    quasi. Earum sequi, voluptas vero similique iusto eveniet nihil? Sunt suscipit aspernatur cum earum
+                    alias
+                    nihil blanditiis quidem saepe autem ea magnam laboriosam adipisci, fugit ducimus velit accusamus
+                    tempora
+                    sit</p>
+        </div>
+        <div class="faqs">
+            <h2> ¿Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, fuga? </h3>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quam sequi enim fugit accusamus
+                    temporibus ab deserunt fugiat eveniet reiciendis atque, ut necessitatibus minus neque quibusdam iure
+                    ullam
+                    consectetur facilis natus nam, laudantium suscipit dolorem distinctio in? Minus, tempora quis
+                    quibusdam
+                    temporibus sit deserunt debitis suscipit unde aliquam quod odit. Lorem ipsum dolor sit amet
+                    consectetur
+                    adipisicing elit.</p>
+
+        </div>
+        <div class="faqs">
+            <h2> ¿Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, fuga? </h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eum aliquid! Eum officia quos
+                    debitis?
+                    Distinctio maxime odit totam exercitationem enim consequatur molestiae natus, numquam quas, harum
+                    eum
+                    beatae
+                    illum quis voluptas consectetur molestias voluptatem ipsam! Consequuntur odit commodi aperiam
+                    sapiente
+                    ullam.</p>
+
+        </div>
+        <div class="faqs">
+            <h2> ¿Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, fuga? </h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, assumenda. Ad officiis voluptatibus
+                    aliquam
+                    animi mollitia tempora error asperiores quisquam amet itaque ut exercitationem necessitatibus
+                    tempore
+                    eum
+                    culpa eius, earum soluta perferendis. Porro, vel natus. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing
+                    elit!
+                </p>
+        </div>
     </div>
-    
     <section class="enlacesRedes">
         <h4>SEGUINOS EN NUESTRAS REDES</h4>
 
@@ -87,7 +161,9 @@
         </div>
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 <Footer>

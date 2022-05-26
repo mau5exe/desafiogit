@@ -1,0 +1,20 @@
+.enlacesRedes {
+    background-color: #706C61;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    a {
+        & :hover {
+            transform: scale(1.30);
+           
+        }
+
+    }
+  }

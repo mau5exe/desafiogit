@@ -1,0 +1,16 @@
+/*MAP-GET APLICADO SOLAMENTE PARA DESAFIO ***EN INDEX***/
+
+$estiloMapGet: (fuenteColor: #000000, color: #eeba0b, backcolor: #FF934F, tamIconos: 100px);
+
+.footerMapGet {
+background-color: map-get($estiloMapGet, color);
+color: map-get($estiloMapGet, fuenteColor);
+}
+.enlacesRedesMapGet {
+    background-color: map-get($estiloMapGet, backcolor);
+    color: map-get($estiloMapGet, fuenteColor);
+    font-size: map-get($estiloMapGet,tamIconos);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}

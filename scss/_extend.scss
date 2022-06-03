@@ -1,0 +1,16 @@
+/*EXTEND APLICADO SOLAMENTE PARA DESAFIO **PAGINA RECITALES***/
+
+.parrafosUnoDos {
+    font-weight: bold;
+    font-style: oblique;
+    color: #B88B4A;
+    font-size: 18px;
+}
+
+.parrafosTresCuatro{
+    @extend .parrafosUnoDos;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    
+}

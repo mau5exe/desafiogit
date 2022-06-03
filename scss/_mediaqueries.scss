@@ -1,0 +1,102 @@
+//***MEDIA QUERIE INDEX/PRODUCTOS****POR AHORA//
+
+@media (min-width: 600px) {
+    .wide {
+      grid-column: span 2;
+    }
+  
+    .tall {
+      grid-row: span 2;
+    }
+  
+    .tituloBienvenida {
+      margin-top: 20%;
+      margin-bottom: 10%;
+      font-size: 2rem;
+    }
+  
+    .formularioNewsletter {
+      margin-left: 32%;
+      padding: 5%;
+      max-width: 90%;
+    }
+  
+    .tituloSubtitulo {
+      margin-top: 10%;
+      margin-bottom: 5%;
+      font-size: 5rem;
+    }
+  }
+  /* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
+  @media screen and (max-width: 600px) {
+    .cuerpoRecitales {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr;
+      margin: 0;
+      height: 100vh;
+      gap: 10px;
+      flex-wrap: wrap;
+      grid-template-areas: "botoneraRecitales botoneraRecitales botoneraRecitales" "anclaImg anclaImg anclaImg" "recital recital recital" "imagenReci imagenReci imagenReci" "imagenReci imagenReci imagenReci" "fechaReci fechaReci fechaReci" "tickets tickets tickets" "youtube youtube youtube" "redes redes redes" "copyright copyright copyright";
+      display: flex;
+    }
+  
+    .anclaInicioImg img {
+      grid-area: anclaImg;
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .botonesMenu {
+      grid-area: botoneraRecitales;
+      flex-wrap: wrap;
+    }
+  
+    .textoRecital {
+      grid-area: recital;
+      max-width: 100%;
+      margin: auto;
+    }
+  
+    .imagenReci img {
+      grid-area: imagenReci;
+      max-width: 100%;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+  
+    .fechaCiudad {
+      grid-area: fechaReci;
+      margin: auto;
+      padding: 50px;
+      text-align: center;
+    }
+  
+    .enlacesTickets {
+      grid-area: tickets;
+      flex-wrap: wrap;
+    }
+  
+    .linkYoutube {
+      iframe {
+        grid-area: youtube;
+        flex-wrap: wrap;
+        margin: 5%;
+        padding: 0%;
+        max-width: 90%;
+      }
+  
+      text-align: center;
+    }
+  
+    .enlacesRedes {
+      grid-area: redes;
+      flex-wrap: wrap;
+    }
+  
+    footer {
+      grid-area: copyright;
+      flex-wrap: wrap;
+      margin: auto;
+    }
+  }

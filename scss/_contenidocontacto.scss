@@ -1,0 +1,108 @@
+/* CONTACTO */
+  
+.tituloContacto h2 {
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-top: 15%;
+    color: #F8F4E3;
+    text-align: center;
+  }
+  
+  .ubicacion h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+  }
+  
+    .contenedorContacto {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 10%;
+    gap: 40px;
+  }
+  
+  .ubicacion {
+    background-size: cover;
+    background-color: #FFA400;
+    border: #000000 solid 2px;
+  
+    /* margin-bottom: 3%; */
+    flex-wrap: wrap;
+  }
+  
+  /* .ubicacion iframe {
+      border: #000000 solid 1px;
+      margin-left: 28%;
+      margin-bottom: 2%;
+  } */
+  
+  .formulario {
+    background-size: cover;
+    background-color: #FFA400;
+    border: #000000 solid 2px;
+    flex-wrap: wrap;
+  }
+  
+  .containerFaqs {
+    h3 {
+      font-size: 3rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding-top: 2%;
+      padding-bottom: 1%;
+      margin-top: 15%;
+      color: #F8F4E3;
+      text-align: center;
+    }
+  
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 10%;
+    gap: 40px;
+  }
+  
+  .faqs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3%;
+  }
+  
+  .formulario {
+    form {
+      border: #000000 solid 1px;
+      text-transform: uppercase;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: large;
+      font-weight: bolder;
+    }
+  
+    legend {
+      margin-bottom: 4%;
+      font-size: 2rem;
+    }
+  }
+
+  /* FUENTES Y MARGENES FAQS *****FALTA MODIFICAR***** */
+  
+  .faqs {
+    p {
+      border: 2px none #eeba0b;
+      font-size: 10px;
+      margin-top: 2%;
+      color: #F8F4E3;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      display: inline-block;
+    }
+  
+    h2 {
+      padding: 1%;
+      margin-top: 20%;
+      margin-bottom: 10%;
+      font-size: 20px;
+      color: #eeba0b;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  }
+  

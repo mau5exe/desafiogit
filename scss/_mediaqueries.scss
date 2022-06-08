@@ -1,6 +1,6 @@
-//***MEDIA QUERIE INDEX/PRODUCTOS****POR AHORA//
+/*MEDIA QUERIE INDEX/PRODUCTOS*/
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
     .wide {
       grid-column: span 2;
     }
@@ -27,6 +27,39 @@
       font-size: 5rem;
     }
   }
+  /* MEDIA QUERIES NOSOTROS*/
+  @media (max-width: 640px){
+    .cardsNosotros2 {
+      max-width: 90%;
+      
+    }
+    .cardsNosotros2 img {
+      width: auto;
+      
+      
+    }
+    .quienesSomos {
+      align-items: center;
+      display: block;
+      width: 100%;
+         
+    }
+    .contenidoCards {
+      padding: 5px 20px 20px 20px;
+      background: transparent;
+      text-align: center;
+        
+    }
+    .bodyNosotros h1 {
+    margin-top: 150px;
+    justify-content:center
+    }
+    h2{
+      text-align: center;
+      
+      
+    }
+  }
   /* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
   @media screen and (max-width: 600px) {
     .cuerpoRecitales {
@@ -42,7 +75,6 @@
     }
   
     .anclaInicioImg img {
-      grid-area: anclaImg;
       max-width: 100%;
       flex-wrap: wrap;
     }

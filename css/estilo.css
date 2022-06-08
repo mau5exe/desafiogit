@@ -283,153 +283,173 @@ footer {
   background-color: #000000; }
 
 /* CONTACTO */
-.tituloContacto h2 {
-  font-size: 4rem;
+.tituloContacto h1 {
+  font-size: 3rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-top: 2%;
-  padding-bottom: 1%;
-  margin-top: 15%;
+  padding-top: 100px;
+  padding-bottom: 2%;
+  margin-top: 10%;
   color: #F8F4E3;
   text-align: center; }
 
-.ubicacion h3 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 2rem; }
-
 .contenedorContacto {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  margin: 2%;
-  padding: 10%;
-  gap: 40px; }
+  max-width: 1100px;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-left: 13%;
+  background-color: #000000;
+  padding: 20px 20px 20px 20px;
+  gap: 50px; }
 
 .ubicacion {
-  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: whitesmoke solid 8px;
   background-color: #FFA400;
-  border: #000000 solid 2px;
-  /* margin-bottom: 3%; */
-  flex-wrap: wrap; }
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px black;
+  height: 400px; }
+  .ubicacion h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    border: #000000 solid 5px;
+    padding: 10px;
+    text-align: center; }
+  .ubicacion iframe {
+    border: #000000 solid 5px; }
 
-/* .ubicacion iframe {
-      border: #000000 solid 1px;
-      margin-left: 28%;
-      margin-bottom: 2%;
-  } */
 .formulario {
-  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: whitesmoke solid 8px;
   background-color: #FFA400;
-  border: #000000 solid 2px;
-  flex-wrap: wrap; }
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px black;
+  height: 400px; }
+  .formulario form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .formulario input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .formulario h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    border: #000000 solid 5px;
+    padding: 10px;
+    text-align: center; }
+  .formulario form {
+    border: #000000 solid 5px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    padding: 15px; }
 
 .containerFaqs {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  margin: 2%;
-  padding: 10%;
-  gap: 40px; }
-  .containerFaqs h3 {
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    margin-top: 15%;
-    color: #F8F4E3;
+  max-width: 1100px;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-left: 12%;
+  background-color: #000000;
+  padding: 30px 30px 30px 30px;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #F8F4E3; }
+  .containerFaqs p {
+    padding: 3px 2px 5px 2px;
     text-align: center; }
 
 .faqs {
-  flex-direction: row;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
   flex-wrap: wrap;
-  padding: 3%; }
+  width: 100%;
+  height: 370px;
+  margin: 5px;
+  border: 6px solid whitesmoke;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px black; }
+  .faqs h2 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+    font-size: 3rem;
+    text-align: center;
+    color: #F8F4E3;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px black; }
 
-.formulario form {
-  border: #000000 solid 1px;
-  text-transform: uppercase;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: large;
-  font-weight: bolder; }
-
-.formulario legend {
-  margin-bottom: 4%;
-  font-size: 2rem; }
-
-/* FUENTES Y MARGENES FAQS *****FALTA MODIFICAR***** */
-.faqs p {
-  border: 2px none #eeba0b;
-  font-size: 10px;
-  margin-top: 2%;
-  color: #F8F4E3;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  display: inline-block; }
-
-.faqs h2 {
-  padding: 1%;
-  margin-top: 20%;
-  margin-bottom: 10%;
-  font-size: 20px;
-  color: #eeba0b;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.tituloNosotros {
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-image: linear-gradient(to left, black, yellow); }
-
-.parrafosDeHistoria p {
-  font-weight: bold;
-  font-style: oblique;
-  color: #eeba0b;
-  font-size: 20px; }
-
-.parrafosDeHistoria h3 {
-  color: #C0C0C0;
-  font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+.bodyNosotros {
+  background-image: linear-gradient(to left, black, yellow);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .bodyNosotros h1 {
+    color: #000000;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 150px;
+    text-align: center; }
+  .bodyNosotros h2 {
+    color: black;
+    font-size: 50px;
+    padding: 30px; }
 
 .quienesSomos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 2000px;
   border: #000000 solid 4px;
   margin-bottom: 0%;
   background-color: #000000; }
-  .quienesSomos h3 {
-    display: inline-block;
-    margin-top: 10%;
-    padding-top: 3%;
-    background-image: linear-gradient(to bottom, black, #eeba0b);
-    width: 100%;
-    height: 150px; }
 
-/*MAP-GET APLICADO SOLAMENTE PARA DESAFIO ***EN INDEX***/
-.footerMapGet {
-  background-color: #eeba0b;
-  color: #000000; }
+.cardsNosotros2 {
+  display: flex;
+  width: 100%;
+  height: 370px;
+  margin: 20px;
+  border: 8px solid whitesmoke;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px black;
+  transition: all 400ms ease; }
 
-.enlacesRedesMapGet {
-  background-color: #FF934F;
-  color: #000000;
-  font-size: 100px;
-  font-family: 'Courier New', Courier, monospace;
+.cardsNosotros2 :hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%); }
+
+.cardsNosotros2 img {
+  width: 100%;
+  height: 410px;
+  margin: auto; }
+
+.cardsNosotros2 .contenidoCards {
+  padding: 30px;
   text-align: center; }
 
-/*EXTEND APLICADO SOLAMENTE PARA DESAFIO **PAGINA RECITALES***/
-.parrafosUnoDos, .parrafosTresCuatro {
+.contenidoCards {
+  display: inline-block;
+  padding: 50px; }
+
+.contenidoCards p {
+  width: 100%;
+  height: auto;
   font-weight: bold;
   font-style: oblique;
   color: #B88B4A;
-  font-size: 18px; }
+  font-size: 1.5rem;
+  line-height: 1.5; }
 
-.parrafosTresCuatro {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-  text-decoration: underline; }
-
-/*MIXIN APLICADO SOLAMENTE PARA DESAFIO ***PAGINA RECITALES***/
-.imagenesMixin {
-  width: 500px;
-  border: 8px solid whitesmoke;
-  border-radius: 500px; }
-
-@media (min-width: 600px) {
+/*MEDIA QUERIE INDEX/PRODUCTOS*/
+@media (min-width: 640px) {
   .wide {
     grid-column: span 2; }
   .tall {
@@ -447,6 +467,26 @@ footer {
     margin-bottom: 5%;
     font-size: 5rem; } }
 
+/* MEDIA QUERIES NOSOTROS*/
+@media (max-width: 640px) {
+  .cardsNosotros2 {
+    max-width: 90%; }
+  .cardsNosotros2 img {
+    width: auto; }
+  .quienesSomos {
+    align-items: center;
+    display: block;
+    width: 100%; }
+  .contenidoCards {
+    padding: 5px 20px 20px 20px;
+    background: transparent;
+    text-align: center; }
+  .bodyNosotros h1 {
+    margin-top: 150px;
+    justify-content: center; }
+  h2 {
+    text-align: center; } }
+
 /* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
 @media screen and (max-width: 600px) {
   .cuerpoRecitales {
@@ -460,7 +500,6 @@ footer {
     grid-template-areas: "botoneraRecitales botoneraRecitales botoneraRecitales" "anclaImg anclaImg anclaImg" "recital recital recital" "imagenReci imagenReci imagenReci" "imagenReci imagenReci imagenReci" "fechaReci fechaReci fechaReci" "tickets tickets tickets" "youtube youtube youtube" "redes redes redes" "copyright copyright copyright";
     display: flex; }
   .anclaInicioImg img {
-    grid-area: anclaImg;
     max-width: 100%;
     flex-wrap: wrap; }
   .botonesMenu {
@@ -498,30 +537,3 @@ footer {
     grid-area: copyright;
     flex-wrap: wrap;
     margin: auto; } }
-
-#tituloRaiz {
-  margin-top: 4%;
-  padding: 0%;
-  text-align: left; }
-
-.botonesMenu {
-  background-color: #000000;
-  width: 600px;
-  background-color: #000000; }
-  .botonesMenu div a {
-    border: 2px solid #FFA400;
-    background-color: black;
-    display: inline-block;
-    text-align: end;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1px 2px 1px 2px; }
-
-.letrasMenu {
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  padding: 3px;
-  width: 100%;
-  background-color: #000000; }

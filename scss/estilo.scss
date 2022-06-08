@@ -8,41 +8,5 @@
 @import "contenidoproductos";
 @import "contenidocontacto";
 @import "contenidonosotros";
-@import "maps";
-@import "extend";
-@import "mixin";
 @import "mediaqueries";
 
-//BARRA DE NAVEGACION CSS PURO ***SIN USAR***//
-  
-  #tituloRaiz {
-    margin-top: 4%;
-    padding: 0%;
-    text-align: left;
-  }
-  
-  .botonesMenu {
-    background-color: #000000;
-    width: 600px;
-    background-color: #000000;
-  
-    div a {
-      border: 2px solid #FFA400;
-      background-color: black;
-      display: inline-block;
-      text-align: end;
-      text-decoration: none;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      padding: 1px 2px 1px 2px;
-    }
-  }
-  
-  .letrasMenu {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    padding: 3px;
-    width: 100%;
-    background-color: #000000;
-  }

@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="bodyGradiente">
     <header class="inicioBoots">
 
         <nav class="navbar navbar-expand-lg colorNavbar">
@@ -58,77 +58,64 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <div class="formulario">
-            <div>
-                <H2>CONTACTANOS</H2>
-                <form>
-                    <fieldset>
-                        <div>
-
-                            <label for="Nombre y Apellido">Nombre y Apellido</label>
-                            <input id="Nombre y Apellido" type="text" placeholder="Ingrese su nombre y apellido">
-                        </div>
-                        <div>
-                            <label for="Telefono">Telefono</label>
-                            <input id="Telefono" type="text" placeholder="Ingrese su numero de telefono">
-                        </div>
-                        <div>
-                            <label for="Email">Correo Electronico</label>
-                            <input id="Email" type="email" placeholder="Ingrese su email">
-                        </div>
-                        <div>
-                            <label for="Campo de texto">Comentarios</label>
-
-                            <textarea name="" id="Campo de texto" cols="70" rows="10"></textarea>
-                            <br>
-                            <input type="submit">
-                            <input type="reset" value="Borrar texto">
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
+        <div>
+            <form class="formContacto" action="">
+                <h2>ESCRIBINOS</h2>
+                <input type="text" name="NOMBRE" placeholder="NOMBRE">
+                <input type="text" name="CORREO" placeholder="CORREO">
+                <input type="text" name="TELEFONO" placeholder="TELEFONO">
+                <textarea name="MENSAJE" placeholder="ESCRIBA AQUI SU MENSAJE"></textarea>
+                <input type="button" value="ENVIAR" id="botonContacto">
+                <input type="button" value="BORRAR" id="botonContacto">
+            </form>
         </div>
+
     </div>
 
     <div class="containerFaqs">
-        <div class="faqs">
+        <div class="faqsTitulo tall">
             <h2>FAQS</h2>
         </div>
 
         <div class="faqs">
-            <div class="pregunta">
+            <div>
                 <p>¿CÓMO COMPRO ONLINE?</p>
             </div>
-            <div class="respuesta">
-                <p> ELEGÍ TUS PRODUCTOS. En  las categorías del menú principal vas a poder elegir los productos que vos desees. Si buscas un producto en particular, podes ingresar el nombre en el buscador principal que se encuentra en el sector superior a la derecha con el ícono de una lupa.</p>
+            <div>
+                <p> ELEGÍ TUS PRODUCTOS. En las categorías del menú principal vas a poder elegir los productos que vos
+                    desees. Si buscas un producto en particular, podes ingresar el nombre en el buscador principal que
+                    se encuentra en el sector superior a la derecha con el ícono de una lupa.</p>
             </div>
         </div>
         <div class="faqs">
-            <div class="pregunta">
+            <div>
                 <p>¿CUÁNTO SALE EL ENVÍO? </p>
             </div>
-            <div class="respuesta">
-                <p> Una vez que hayas agregado al carrito los productos que querés comprar, deberás ingresar tú código postal y hacer click en CALCULAR ENVÍO. Allí vas a tener cuatro opciones de envío.</p>
+            <div>
+                <p> Una vez que hayas agregado al carrito los productos que querés comprar, deberás ingresar tú código
+                    postal y hacer click en CALCULAR ENVÍO. Allí vas a tener cuatro opciones de envío.</p>
             </div>
         </div>
         <div class="faqs">
-            <div class="pregunta">
+            <div>
                 <p>¿ES SEGURO PONER MIS DATOS? </p>
             </div>
-            <div class="respuesta">
-                <p> Sí. Tus datos personales y contenido de tú pedido NO serán compartidos ni divulgados bajo ningún concepto. Para mayor información podés visitar nuestra categoría de Términos y Condiciones.</p>
+            <div>
+                <p> Sí. Tus datos personales y contenido de tú pedido NO serán compartidos ni divulgados bajo ningún
+                    concepto. Para mayor información podés visitar nuestra categoría de Términos y Condiciones.</p>
             </div>
         </div>
         <div class="faqs">
-            <div class="pregunta">
+            <div>
                 <p>¿HACEN ENVÍOS A TODO EL PAÍS? </p>
             </div>
-            <div class="respuesta">
-                <p> Sí, claro. Si no tenés la posibilidad de acercarte a nuestros locales a retirar tú compra, podemos enviártelo a cualquier parte del país. Ingresá a nuestros productos y abajo del botón Agregar al Carrito vas a ver la opción CONOCÉ NUESTRAS OPCIONES DE ENVÍO. Allí ingresas tú código postal y verificas el precio y el método de envío. Los envíos se realizan a través de OCA.
+            <div>
+                <p> Sí, claro. Si no tenés la posibilidad de acercarte a nuestros locales a retirar tú compra, podemos
+                    enviártelo a cualquier parte del país ingresando tu codigo postal para calcular el costo.
                 </p>
             </div>
         </div>
-        
+
     </div>
     <section class="enlacesRedes">
         <h4>SEGUINOS EN NUESTRAS REDES</h4>

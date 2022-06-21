@@ -16,15 +16,20 @@
     }
   
     .formularioNewsletter {
-      margin-left: 32%;
+      margin-left: 28%;
       padding: 5%;
       max-width: 90%;
     }
   
     .tituloSubtitulo {
-      margin-top: 10%;
+      margin-top: 20%;
       margin-bottom: 5%;
-      font-size: 5rem;
+      font-size: 55px;
+      
+    strong {
+      text-align: center;
+      justify-content: center;
+     }
     }
   }
   /* MEDIA QUERIES NOSOTROS*/
@@ -59,6 +64,14 @@
       
       
     }
+  }
+  /*MEDIA QUERIES - CONTACTO*/
+  @media (min-widht: 640px){
+    .tall {
+      grid-row: span 2;
+    }
+       
+    
   }
   /* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
   @media screen and (max-width: 600px) {

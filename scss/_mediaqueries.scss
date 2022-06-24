@@ -1,147 +1,153 @@
 /*MEDIA QUERIE INDEX/PRODUCTOS*/
 
 @media (min-width: 640px) {
-    .wide {
-      grid-column: span 2;
-    }
-  
-    .tall {
-      grid-row: span 2;
-    }
-  
-    .tituloBienvenida {
-      margin-top: 20%;
-      margin-bottom: 10%;
-      font-size: 2rem;
-    }
-  
-    .formularioNewsletter {
-      margin-left: 28%;
-      padding: 5%;
-      max-width: 90%;
-    }
-  
-    .tituloSubtitulo {
-      margin-top: 20%;
-      margin-bottom: 5%;
-      font-size: 55px;
-      
-    strong {
-      text-align: center;
-      justify-content: center;
-     }
-    }
+  .wide {
+    grid-column: span 2;
   }
-  /* MEDIA QUERIES NOSOTROS*/
-  @media (max-width: 640px){
-    .cardsNosotros2 {
-      max-width: 90%;
-      
-    }
-    .cardsNosotros2 img {
-      width: auto;
-      
-      
-    }
-    .quienesSomos {
-      align-items: center;
-      display: block;
-      width: 100%;
-         
-    }
-    .contenidoCards {
-      padding: 5px 20px 20px 20px;
-      background: transparent;
-      text-align: center;
-        
-    }
-    .bodyNosotros h1 {
+
+  .tall {
+    grid-row: span 2;
+  }
+
+  .tituloBienvenida {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 2rem;
+  }
+
+  .formularioNewsletter {
+    margin-left: 28%;
+    padding: 5%;
+    max-width: 90%;
+  }
+
+  .tituloSubtitulo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 55px;
+  strong {
+    margin-left: 5%;
+  }
+  }
+  .subtituloDiscos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 55px;
+   strong {
+    margin-left: 5%;
+   }
+  }
+}
+
+/* MEDIA QUERIES NOSOTROS*/
+@media (max-width: 640px) {
+  .cardsNosotros2 {
+    max-width: 90%;
+  }
+
+  .cardsNosotros2 img {
+    width: auto;
+  }
+
+  .quienesSomos {
+    align-items: center;
+    display: block;
+    width: 100%;
+  }
+
+  .contenidoCards {
+    padding: 5px 20px 20px 20px;
+    background: transparent;
+    text-align: center;
+  }
+
+  .bodyNosotros h1 {
     margin-top: 150px;
-    justify-content:center
-    }
-    h2{
-      text-align: center;
-      
-      
-    }
+    justify-content: center
   }
-  /*MEDIA QUERIES - CONTACTO*/
-  @media (min-widht: 640px){
-    .tall {
-      grid-row: span 2;
-    }
-       
-    
+
+  h2 {
+    text-align: center;
   }
-  /* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
-  @media screen and (max-width: 600px) {
-    .cuerpoRecitales {
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 1fr;
-      margin: 0;
-      height: 100vh;
-      gap: 10px;
-      flex-wrap: wrap;
-      grid-template-areas: "botoneraRecitales botoneraRecitales botoneraRecitales" "anclaImg anclaImg anclaImg" "recital recital recital" "imagenReci imagenReci imagenReci" "imagenReci imagenReci imagenReci" "fechaReci fechaReci fechaReci" "tickets tickets tickets" "youtube youtube youtube" "redes redes redes" "copyright copyright copyright";
-      display: flex;
-    }
-  
-    .anclaInicioImg img {
-      max-width: 100%;
-      flex-wrap: wrap;
-    }
-  
-    .botonesMenu {
-      grid-area: botoneraRecitales;
-      flex-wrap: wrap;
-    }
-  
-    .textoRecital {
-      grid-area: recital;
-      max-width: 100%;
-      margin: auto;
-    }
-  
-    .imagenReci img {
-      grid-area: imagenReci;
-      max-width: 100%;
-      margin: auto;
-      flex-wrap: wrap;
-    }
-  
-    .fechaCiudad {
-      grid-area: fechaReci;
-      margin: auto;
-      padding: 50px;
-      text-align: center;
-    }
-  
-    .enlacesTickets {
-      grid-area: tickets;
-      flex-wrap: wrap;
-    }
-  
-    .linkYoutube {
-      iframe {
-        grid-area: youtube;
-        flex-wrap: wrap;
-        margin: 5%;
-        padding: 0%;
-        max-width: 90%;
-      }
-  
-      text-align: center;
-    }
-  
-    .enlacesRedes {
-      grid-area: redes;
-      flex-wrap: wrap;
-    }
-  
-    footer {
-      grid-area: copyright;
-      flex-wrap: wrap;
-      margin: auto;
-    }
+}
+
+/*MEDIA QUERIES - CONTACTO*/
+@media (min-widht: 640px) {
+  .tall {
+    grid-row: span 2;
   }
+
+}
+
+/* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
+@media screen and (max-width: 600px) {
+  .cuerpoRecitales {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    margin: 0;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap;
+    grid-template-areas: "botoneraRecitales botoneraRecitales botoneraRecitales""anclaImg anclaImg anclaImg""recital recital recital""imagenReci imagenReci imagenReci""imagenReci imagenReci imagenReci""fechaReci fechaReci fechaReci""tickets tickets tickets""youtube youtube youtube""redes redes redes""copyright copyright copyright";
+    display: flex;
+  }
+
+  .anclaInicioImg img {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .botonesMenu {
+    grid-area: botoneraRecitales;
+    flex-wrap: wrap;
+  }
+
+  .textoRecital {
+    grid-area: recital;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .imagenReci img {
+    grid-area: imagenReci;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .fechaCiudad {
+    grid-area: fechaReci;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .enlacesTickets {
+    grid-area: tickets;
+    flex-wrap: wrap;
+  }
+
+  .linkYoutube {
+    iframe {
+      grid-area: youtube;
+      flex-wrap: wrap;
+      margin: 5%;
+      padding: 0%;
+      max-width: 90%;
+    }
+
+    text-align: center;
+  }
+
+  .enlacesRedes {
+    grid-area: redes;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    grid-area: copyright;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}

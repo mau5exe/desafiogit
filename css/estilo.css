@@ -136,38 +136,50 @@ footer {
 
 /* PAGINA RECITALES *FALTA MODIFICAR*/
 .cuerpoRecitales {
-  background-image: linear-gradient(to left, black, yellow); }
+  background-image: linear-gradient(to left, black, yellow);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .textoRecital h2 {
   display: inline-block;
   margin-top: 15%;
-  font-size: 60px;
-  color: #F8F4E3;
+  font-size: 55px;
+  color: #000000;
   text-align: center;
   width: 100%;
   font-weight: bold; }
 
 .imagenReci {
   display: inline-block;
-  padding: 0%;
-  margin-left: 12%;
-  margin-bottom: 5%;
+  margin: auto;
   border: 10px solid #000000;
-  max-width: 100%;
-  max-height: 50%;
-  border-radius: 5px;
-  align-items: center; }
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center; }
+  .imagenReci img {
+    max-width: 100%;
+    height: 600px; }
 
 .fechaCiudad {
   border: #000000 solid 8px;
   border-radius: 5px;
   background-color: #232528;
-  align-content: stretch; }
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 8%; }
+  .fechaCiudad h3 {
+    font-size: 45px;
+    color: #000000;
+    font-weight: bold; }
   .fechaCiudad li {
     color: #F8F4E3;
     text-align: center;
-    font-size: 2rem;
-    padding: 1%;
+    justify-content: center;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
@@ -176,61 +188,96 @@ footer {
   font-size: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin: 50px 0px 80px 0px; }
+  margin: auto;
+  margin-bottom: 8%;
+  margin-top: 8%; }
   .enlacesTickets h3 {
-    font-size: 60px;
+    font-size: 55px;
     margin-bottom: 5%;
-    font-weight: bold;
-    color: #FFA400;
-    font-family: 'Courier New', Courier, monospace; }
+    font-weight: bolder;
+    color: #000000; }
+  .enlacesTickets a {
+    padding: 50px 50px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #F8F4E3;
+    font-weight: bold; }
 
 .linkYoutube {
   display: inline-block;
-  margin-left: 25%;
+  margin: auto;
   padding-top: 3%;
   padding-bottom: 5%;
-  width: 800px;
+  width: 600px;
   text-align: center;
   border: 8px solid #000000;
   border-radius: 3px;
   background-color: #FFA400; }
   .linkYoutube h3 {
-    font-size: 4rem;
+    font-size: 50px;
     align-content: center;
     font-weight: bold;
-    justify-content: center; }
+    justify-content: center;
+    color: #000000; }
 
 /* GRID Y FLEX RECITALES */
-.cuerpoRecitales {
-  display: grid;
-  grid-template-areas: "botoneraRecitales botoneraRecitales botoneraRecitales" "anclaImg anclaImg anclaImg" "recital recital recital" "imagenReci imagenReci imagenReci" "imagenReci imagenReci imagenReci" "fechaReci fechaReci fechaReci" "tickets tickets tickets" "youtube youtube youtube" "redes redes redes" "copyright copyright copyright"; }
-
-.anclaInicioImg {
-  grid-area: anclaImg; }
-
-.botonesMenu {
-  grid-area: botoneraRecitales; }
-
-.textoRecital {
-  grid-area: recital; }
-
-.imagenReci {
-  grid-area: imagenReci; }
-
-.fechaCiudad {
-  grid-area: fechaReci; }
-
-.enlacesTickets {
-  grid-area: tickets; }
-
-.linkYoutube {
-  grid-area: youtube; }
-
-.enlacesRedes {
-  grid-area: redes; }
-
-footer {
-  grid-area: copyright; }
+@media screen and (max-width: 600px) {
+  .cuerpoRecitales {
+    display: grid;
+    grid-template-areas: "navbar navbar" "recital recital" "imagenRec imagenRec" "imagenRec imagenRec" "fechaReci fechaReci" "tickets tickets" "youtube youtube" "youtube youtube" "redes redes" "copyright copyright"; }
+  .inicioBoots {
+    grid-area: navbar; }
+  .textoRecital {
+    grid-area: recital; }
+    .textoRecital h2 {
+      margin-top: 200px;
+      font-size: 40px; }
+  .imagenReci {
+    grid-area: imagenRec;
+    max-width: 90%;
+    margin-top: 25%; }
+    .imagenReci img {
+      max-width: 100%;
+      height: 470px; }
+  .fechaCiudad {
+    grid-area: fechaReci;
+    max-width: 90%; }
+    .fechaCiudad h3 {
+      font-size: 25px;
+      padding-bottom: 30%; }
+    .fechaCiudad ol li {
+      font-size: 10px;
+      padding: 2px;
+      margin-left: 0%;
+      text-align: center;
+      width: 100%; }
+  .enlacesTickets {
+    grid-area: tickets;
+    max-width: 90%;
+    text-align: center;
+    justify-items: center; }
+    .enlacesTickets a {
+      font-size: 20px; }
+    .enlacesTickets h3 {
+      font-size: 30px; }
+  .linkYoutube {
+    grid-area: youtube;
+    margin: 10px; }
+  .enlacesRedes {
+    grid-area: redes;
+    max-width: 100%;
+    flex-wrap: wrap; }
+  footer {
+    grid-area: copyright;
+    width: 100%;
+    color: #000000; }
+    footer p {
+      font-size: 10px;
+      margin-bottom: 2px; }
+    footer strong {
+      width: 100%;
+      font-size: 10px;
+      margin-top: 2px; } }
 
 /*PRODUCTOS*/
 .bodyGradiente {
@@ -254,20 +301,20 @@ footer {
   .tituloSubtitulo strong {
     font-size: 55px;
     text-align: center;
-    justify-content: left;
-    margin-left: 2%;
-    max-width: 90%; }
+    max-width: 90%;
+    margin-left: 5%; }
 
 .subtituloDiscos {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   font-weight: bold; }
   .subtituloDiscos strong {
     font-size: 55px;
-    margin-left: 2%;
+    margin-left: 5%;
+    text-align: center;
     max-width: 90%;
-    margin-top: 10%;
-    padding-top: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
     color: #000000; }
 
 .grid-containerProductos {
@@ -278,6 +325,18 @@ footer {
   padding: 30px;
   grid-auto-flow: dense;
   background-color: #000000; }
+  .grid-containerProductos a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 180px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    border-radius: 1em;
+    border: solid #FFA400;
+    color: #FFA400;
+    text-transform: uppercase;
+    padding: 1em 1em; }
 
 /* CONTACTO */
 .bodyGradiente {
@@ -333,7 +392,7 @@ footer {
   flex-wrap: wrap;
   width: 600px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.9);
   padding: 10px 10px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -350,15 +409,17 @@ footer {
     text-align: center;
     justify-content: center;
     margin-top: 25px; }
-  .formContacto input, .formContacto textarea {
+  .formContacto input,
+  .formContacto textarea {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 15px;
     padding: 7px;
     box-sizing: border-box;
+    color: #F8F4E3;
     font-size: 18px;
     border: none;
-    background: rgba(0, 0, 0, 0.7); }
+    background: rgba(0, 0, 0, 0.9); }
   .formContacto textarea {
     min-height: 100px;
     max-height: 200px;
@@ -492,12 +553,17 @@ footer {
     padding: 5%;
     max-width: 90%; }
   .tituloSubtitulo {
-    margin-top: 20%;
+    margin-top: 5%;
     margin-bottom: 5%;
     font-size: 55px; }
     .tituloSubtitulo strong {
-      text-align: center;
-      justify-content: center; } }
+      margin-left: 5%; }
+  .subtituloDiscos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 55px; }
+    .subtituloDiscos strong {
+      margin-left: 5%; } }
 
 /* MEDIA QUERIES NOSOTROS*/
 @media (max-width: 640px) {

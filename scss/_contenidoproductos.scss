@@ -8,8 +8,7 @@
     margin-top: 10%;
     margin-bottom: 5%;
     color: #000000;
-    
-  
+      
     h2 {
       font-size: 55px;
       font-weight: bold;
@@ -19,28 +18,30 @@
       margin-top: 15%;
       max-width: 100%;
       color: #000000;
+    
     }
-  
     strong {
       font-size: 55px;
       text-align: center;
-      justify-content: left;
-      margin-left: 2%;
       max-width: 90%;
+      margin-left: 5%;
     }
+  
+    
   }
   
   .subtituloDiscos {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
     font-weight: bold; 
   
     strong {
       font-size: 55px;
-      margin-left: 2%;
+      margin-left: 5%;
+      text-align: center;
       max-width: 90%;
-      margin-top: 10%;
-      padding-top: 10%;
+      margin-top: 5%;
+      padding-top: 5%;
       color: #000000;
     }
   }
@@ -52,5 +53,22 @@
     gap: 30px;
     padding: 30px;
     grid-auto-flow: dense;
-    background-color: #000000;
-  }
+    background-color: #000000;   
+    
+    
+    a{
+      font-size: 20px;
+      text-decoration: none;
+     
+      margin-bottom: 5px;
+      margin-top: 180px;
+      padding-bottom: 5px;
+      background-color:#000000;
+      border-radius:1em;
+      border: solid #FFA400;
+      color:#FFA400;
+      text-transform:uppercase;
+      padding:1em 1em;
+    }
+
+}

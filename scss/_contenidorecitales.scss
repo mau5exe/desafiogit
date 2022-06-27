@@ -5,9 +5,10 @@
 
 .textoRecital h1 {
   display: inline-block;
-  margin-top: 22%;
+  margin-top: 15%;
   margin-bottom: 5%;
-  font-size: 65px;
+  padding-top: 20px;
+  font-size: 70px;
   color: #000000;
   text-align: center;
   width: 100%;
@@ -39,12 +40,14 @@
   justify-content: center;
   margin: auto;
   margin-top: 5%;
+  
 
   h2 {
     font-size: 35px;
     color: #F8F4E3;
     font-weight: bold;
     text-align: left;
+    margin-left: 5%;
   }
 
   li {
@@ -55,6 +58,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
   }
 }
 

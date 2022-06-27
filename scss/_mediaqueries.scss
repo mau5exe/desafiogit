@@ -10,55 +10,88 @@
   }
 
   .tituloBienvenida {
-    margin-top: 20%;
-    margin-bottom: 10%;
-    font-size: 2rem;
+    margin-top: 13%;
+    padding-top: 4%;
+
+    h1 {
+      font-size: 90px;
+      
+    }
+
+    h2 {
+      font-size: 90px;
+    }
   }
 
   .formularioNewsletter {
-    margin-left: 28%;
+    margin: auto;
     padding: 5%;
-    max-width: 90%;
+    width: 450px;
+  }
+
+  .textoInicio {
+    font-size: 30px;
   }
 
   .tituloSubtitulo {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 55px;
-  strong {
-    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    h1 {
+      font-size: 65px;
+      padding-top: 15px;
+    }
+
+    h2 {
+      font-size: 55px;
+
+    }
   }
-  }
+
   .subtituloDiscos {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 55px;
-   strong {
-    margin-left: 5%;
-   }
+    margin-top: 15px;
+
+
+    h2 {
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
   }
+
 }
 
-/* MEDIA QUERIES NOSOTROS*/
+/* MEDIA QUERIE NOSOTROS*/
 @media (max-width: 640px) {
   .cardsNosotros2 {
-    max-width: 90%;
-  }
+    max-width: auto;
+    height: 300px;
 
-  .cardsNosotros2 img {
-    width: auto;
+    img {
+      max-width: 100%;
+      height: auto;
+      justify-content: center;
+      line-height: 1.5
+    }
   }
 
   .quienesSomos {
     align-items: center;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    height: auto;
   }
 
   .contenidoCards {
-    padding: 5px 20px 20px 20px;
+    padding: 15px 10px 15px 10px;
     background: transparent;
     text-align: center;
+    justify-content: center;
+    height: 100%;
+
+    p {
+      font-size: 15px;
+    }
   }
 
   .bodyNosotros h1 {
@@ -71,83 +104,182 @@
   }
 }
 
-/*MEDIA QUERIES - CONTACTO*/
-@media (min-widht: 640px) {
-  .tall {
-    grid-row: span 2;
-  }
+/* MEDIA QUERIE - RECITALES */
 
-}
-
-/* MEDIA QUERIES - RECITALES ***CON GRID AREA*** VER */
 @media screen and (max-width: 600px) {
   .cuerpoRecitales {
-    display: grid;
+    display: flex;
     grid-template-columns: 100%;
     grid-template-rows: 1fr;
     margin: 0;
     height: 100vh;
     gap: 10px;
     flex-wrap: wrap;
-    grid-template-areas: "botoneraRecitales botoneraRecitales botoneraRecitales""anclaImg anclaImg anclaImg""recital recital recital""imagenReci imagenReci imagenReci""imagenReci imagenReci imagenReci""fechaReci fechaReci fechaReci""tickets tickets tickets""youtube youtube youtube""redes redes redes""copyright copyright copyright";
-    display: flex;
+    grid-template-areas:
+      "navbar navbar"
+      "recital recital"
+      "imagenRec imagenRec"
+      "imagenRec imagenRec"
+      "fechaReci fechaReci"
+      "tickets tickets"
+      "youtube youtube"
+      "youtube youtube"
+      "redes redes"
+      "copyright copyright";
   }
 
-  .anclaInicioImg img {
-    max-width: 100%;
-    flex-wrap: wrap;
-  }
-
-  .botonesMenu {
-    grid-area: botoneraRecitales;
-    flex-wrap: wrap;
+  .inicioBoots {
+    grid-area: navbar;
   }
 
   .textoRecital {
     grid-area: recital;
-    max-width: 100%;
     margin: auto;
+
+    h1 {
+      margin-top: 200px;
+      font-size: 40px;
+
+    }
   }
 
-  .imagenReci img {
-    grid-area: imagenReci;
-    max-width: 100%;
-    margin: auto;
-    flex-wrap: wrap;
+  .imagenReci {
+    grid-area: imagenRec;
+    max-width: 90%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+    img {
+      max-width: 100%;
+      height: 470px;
+    }
   }
 
   .fechaCiudad {
     grid-area: fechaReci;
-    margin: auto;
-    padding: 50px;
-    text-align: center;
+    max-width: 90%;
+
+    h2 {
+      font-size: 20px;
+      padding-bottom: 30%;
+    }
+
+    ol {
+      li {
+        font-size: 13px;
+        padding: 2px;
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+      }
+    }
   }
 
   .enlacesTickets {
     grid-area: tickets;
+    max-width: 90%;
+    text-align: center;
+    justify-items: center;
     flex-wrap: wrap;
+
+    a {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
   }
 
   .linkYoutube {
+    grid-area: youtube;
+    flex-wrap: wrap;
+    margin: 10px;
+
     iframe {
-      grid-area: youtube;
-      flex-wrap: wrap;
-      margin: 5%;
-      padding: 0%;
       max-width: 90%;
     }
-
-    text-align: center;
   }
 
   .enlacesRedes {
     grid-area: redes;
+    max-width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 0px;
   }
 
   footer {
     grid-area: copyright;
     flex-wrap: wrap;
+    width: 100%;
+    color: #000000;
+
+    p {
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+
+    strong {
+      width: 100%;
+      font-size: 13px;
+      margin-top: 2px;
+    }
+  }
+}
+
+/* MEDIA QUERIE CONTACTO*/
+
+@media screen and (max-width: 600px) {
+  .tituloContacto h1 {
+    font-size: 40px;
+  }
+
+  .contenedorContacto {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+    grid-auto-rows: minmax(300px, auto);
+  }
+
+  .ubicacion {
+    max-width: 90%;
+    width: 350px;
+  }
+
+  .formContacto {
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 90%;
+    width: 350px;
+    height: auto;
     margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    h2{
+    justify-content: center;
+    text-align: center;
+    }
+  }
+
+  .faqs {
+    max-width: 90%;
+    width: 350px;
+
+    p {
+      font-size: 15px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+
+  .faqsTitulo {
+    height: 100px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    h2 {
+      font-size: 40px;
+    }
   }
 }

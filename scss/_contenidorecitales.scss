@@ -1,13 +1,13 @@
-/* PAGINA RECITALES *FALTA MODIFICAR*/
 .cuerpoRecitales {
   background-image: linear-gradient(to left, black, yellow);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.textoRecital h2 {
+.textoRecital h1 {
   display: inline-block;
-  margin-top: 15%;
-  font-size: 55px;
+  margin-top: 22%;
+  margin-bottom: 5%;
+  font-size: 65px;
   color: #000000;
   text-align: center;
   width: 100%;
@@ -15,50 +15,56 @@
 }
 
 .imagenReci {
-  display: inline-block;
-  margin: auto;
-  border: 10px solid #000000;
-  max-width: 90%;
-  height: auto;
-  border-radius: 10px;
+  display: flex;
   align-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
   justify-content: center;
 
   img {
-    max-width: 100%;
-    height: 600px;
+    border: 8px solid #000000;
+    max-width: 95%;
+    height: 800px;
   }
 }
 
 .fechaCiudad {
+  display: flex;
   border: #000000 solid 8px;
   border-radius: 5px;
-  background-color: #232528;
-  width: 80%;
-  text-align: center;
+  background-color: #000000;
+  max-width: 95%;
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 8%;
+  margin-top: 5%;
 
-  h3 {
-    font-size: 45px;
-    color: #000000;
+  h2 {
+    font-size: 35px;
+    color: #F8F4E3;
     font-weight: bold;
+    text-align: left;
   }
 
   li {
+    padding: 5px;
     color: #F8F4E3;
     text-align: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
 
 .enlacesTickets {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
+  background-color: #000000;
+  max-width: 95%;
   font-size: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -66,16 +72,17 @@
   margin-bottom: 8%;
   margin-top: 8%;
 
-  h3 {
-    font-size: 55px;
+  h2 {
+    font-size: 40px;
     margin-bottom: 5%;
     font-weight: bolder;
-    color: #000000;
+    color: #FFA400;
+    text-align: center;
   }
 
   a {
     padding: 50px 50px;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: #F8F4E3;
     font-weight: bold;
@@ -83,8 +90,9 @@
 }
 
 .linkYoutube {
-  display: inline-block;
+  flex-wrap: wrap;
   margin: auto;
+  justify-content: center;
   padding-top: 3%;
   padding-bottom: 5%;
   width: 600px;
@@ -93,120 +101,10 @@
   border-radius: 3px;
   background-color: #FFA400;
 
-  h3 {
+  h2 {
     font-size: 50px;
     align-content: center;
     font-weight: bold;
-    justify-content: center;
     color: #000000;
-  }
-}
-
-/* GRID Y FLEX RECITALES */
-@media screen and (max-width: 600px) {
-  .cuerpoRecitales {
-    display: grid;
-    grid-template-areas:
-      "navbar navbar"
-      "recital recital"
-      "imagenRec imagenRec"
-      "imagenRec imagenRec"
-      "fechaReci fechaReci"
-      "tickets tickets"
-      "youtube youtube"
-      "youtube youtube"
-      "redes redes"
-      "copyright copyright";
-  }
-
-  .inicioBoots {
-    grid-area: navbar;
-
-  }
-
-  .textoRecital {
-    grid-area: recital;
-
-    h2 {
-      margin-top: 200px;
-      font-size: 40px;
-    }
-
-  }
-
-  .imagenReci {
-    grid-area: imagenRec;
-    max-width: 90%;
-    margin-top: 25%;
-
-    img {
-      max-width: 100%;
-      height: 470px;
-    }
-  }
-
-  .fechaCiudad {
-    grid-area: fechaReci;
-    max-width: 90%;
-
-    h3 {
-      font-size: 25px;
-      padding-bottom: 30%;
-    }
-
-    ol {
-
-      li {
-        font-size: 10px;
-        padding: 2px;
-        margin-left: 0%;
-        text-align: center;
-
-        width: 100%;
-      }
-    }
-  }
-
-  .enlacesTickets {
-    grid-area: tickets;
-    max-width: 90%;
-    text-align: center;
-    justify-items: center;
-
-    a {
-      font-size: 20px;
-    }
-
-    h3 {
-      font-size: 30px;
-    }
-  }
-
-  .linkYoutube {
-    grid-area: youtube;
-    margin: 10px;
-  }
-
-  .enlacesRedes {
-    grid-area: redes;
-    max-width: 100%;
-    flex-wrap: wrap;
-  }
-
-  footer {
-    grid-area: copyright;
-    width: 100%;
-    color: #000000;
-
-    p {
-      font-size: 10px;
-      margin-bottom: 2px;
-    }
-
-    strong {
-      width: 100%;
-      font-size: 10px;
-      margin-top: 2px;
-    }
   }
 }
